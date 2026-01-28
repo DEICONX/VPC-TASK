@@ -212,8 +212,9 @@ In subnet Associations attach platform,shared,web,app which are to be private an
 | Platform | Private‑RT  |
 | Shared   | Private‑RT  |
 
-✔ None rely on “Main Route Table”
- ✔ All are explicitly associated
+✔ None rely on “Main Route Table
+
+✔ All are explicitly associated
 
 ------
 
