@@ -72,7 +72,7 @@ Reasons:
 
 - Prevents future rearchitecture
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 112650.png)
+  ![](Screenshot%202026-01-28%20112650.png)
 
 ------
 
@@ -102,17 +102,17 @@ Images are attached below for reference
 
 Using CIDR math create 5 subnets
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 113104.png)
+![](Screenshot5202026-01-28%20113104.png)
 
 ----
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 113226.png)
+![](Screenshot%202026-01-28%20113226.png)
 
 ----
 
 5 Subnets are created using CIDR math
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 114457.png)
+![](Screenshot%202026-01-28%20114457.png)
 
 ----
 
@@ -130,7 +130,7 @@ Using CIDR math create 5 subnets
 
 - Ensures controlled external access
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 112746.png)
+  ![](Screenshot%202026-01-28%20112746.png)
 
 ------
 
@@ -152,19 +152,19 @@ Local VPC Route
 0.0.0.0/0 → IGW
 ```
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 114605.png)
+![](Screenshot%202026-01-28%20114605.png)
 
 -----
 
 Using subnet associations attach admin and edge subnets which are to be public 
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 114630.png)
+![](Screenshot%202026-01-28%20114630.png)
 
 ----------------
 
 In routes attach IGW so that they gain access to internet
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 114802.png)
+![](Screenshot%202026-01-28%20114802.png)
 
 
 
@@ -190,13 +190,13 @@ Local VPC Route Only
 
 Create a Private Route Table
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 114954.png)
+![](Screenshot%202026-01-28%20114954.png)
 
 --------------------
 
 In subnet Associations attach platform,shared,web,app which are to be private and remember donot assign IGW since it makes routes to expose to the internet just associate subnets 
 
-![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 115028.png)
+![](Screenshot%202026-01-28%20115028.png)
 
 #  Route Table Associations
 
@@ -222,43 +222,43 @@ In subnet Associations attach platform,shared,web,app which are to be private an
 
   I am now creating a server for public subnets  
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 115856.png)
+  ![](Screenshot%202026-01-28%20115856.png)
 
   -----------
 
   Use the VPC and Public subnet in Network settings before creating EC2
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 115932.png)
+  ![](Screenshot%202026-01-28%20115932.png)
 
   ---------------
 
   We Created a public server now lets test that
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 120550.png)
+  ![](Screenshot%202026-01-28%20120550.png)
 
   ----------------
 
   It has internet Access
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 120832.png)
+  ![](Screenshot%202026-01-28%20120832.png)
 
 - Private subnets **cannot reach the internet**
 
   Lets create an EC2 using our private subnets
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 120956.png)
+  ![](Screenshot%202026-01-28%20120956.png)
 
   ---
 
   Server is created
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 121135.png)
+  ![](Screenshot%202026-01-28%20121135.png)
 
   -----------------
 
   The private network Donot have access to internet
 
-  ![](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2026-01-28 121207.png)
+  ![](Screenshot%202026-01-28%20121207.png)
 
 ------
 
