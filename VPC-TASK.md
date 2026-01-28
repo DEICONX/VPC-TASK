@@ -1,7 +1,8 @@
 # 🏗️ **AWS VPC Architecture – Production‑Ready Networking Design**
 
 **Author:** Deepak Pilli
- **Project:** Scalable Multi‑Tier VPC with Subnet Sizing & Routing Architecture
+
+**Project:** Scalable Multi‑Tier VPC with Subnet Sizing & Routing Architecture
 
 ------
 
